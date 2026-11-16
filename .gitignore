@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets*
+*token*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+checkpoints/
+weights/
+models/
+
+# Datasets and caches
+datasets/
+data/raw/
+.cache/
+huggingface/
+wandb/
+
+# Colab / notebook outputs
+*.ipynb
+*.log
+.DS_Store
